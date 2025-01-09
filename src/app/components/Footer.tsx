@@ -8,7 +8,7 @@ export default function Footer() {
     <a className="hover:underline hover:underline-offset-4" href="#">
       Home
     </a>
-    <a className="hover:underline hover:underline-offset-4" href="#">
+    <a className="hover:underline hover:underline-offset-4" href="/about">
       About
     </a>
     <a className="hover:underline hover:underline-offset-4" href="/products">

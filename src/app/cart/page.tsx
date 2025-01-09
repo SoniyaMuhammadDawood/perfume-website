@@ -54,12 +54,12 @@ export default function Cart() {
   const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
 
   return (
-    <div className="container mx-auto my-12 h-screen">
+    <div className="container mx-auto my-12 min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-center">Your Cart</h1>
       {cartItems.length === 0 ? (
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <p className="text-xl mb-4">Your cart is currently empty.</p>
-          <Link href="/products" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          <Link href="/products" className="bg-[#b89153] hover:bg-[#b18a4b] text-white font-bold py-2 px-4 rounded">
             Continue Shopping
           </Link>
         </div>

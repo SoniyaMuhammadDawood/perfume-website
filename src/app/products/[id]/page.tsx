@@ -59,7 +59,7 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
   }
 
   return (
-    <div className="container mx-auto my-12">
+    <div className="container mx-auto my-12 px-6 ">
       <h1 className="text-4xl font-bold mb-8">{product.name}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="relative">
@@ -68,7 +68,7 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
             alt={product.alt} 
             width={600} 
             height={400} 
-            className="w-full h-auto object-cover rounded-lg"
+            className="w-[620px] h-[420px] object-cover rounded-lg "
           />
           {product.discount > 0 && (
             <span className="absolute top-4 right-4 bg-red-500 text-white text-lg px-3 py-1 rounded-full">
@@ -127,7 +127,8 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
           </div>
           <button 
             onClick={handleAddToCart} 
-            className="w-full bg-[#FBB4A5] hover:bg-[#FBB4A5] text-white font-bold py-2 px-4 rounded"
+            className="w-full bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded 
+            border-[#E8B86D] border-4"
           >
             Add to Cart
           </button>

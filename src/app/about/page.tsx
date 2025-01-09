@@ -7,22 +7,6 @@ const page = () => {
 
     <div>
 
-      {/* <div
-  className="hero min-h-[87vh] w-[198vh] mx-auto bg-no-repeat bg-center bg-fixed  "
-  style={{
-    backgroundImage: "url(/images/about.png)"}}>
-  <div className="flex justify-center items-center bg-opacity-10">
-  <div className="text-neutral-content text-center">
-    <div className="max-w-md bg-[#cc726a89] rounded-xl ">
-      <h1 className="mb-5 text-5xl font-bold">About Us</h1>
-      <p className="mb-5 p-6 text-xl font-semibold">
-      At Local Face, we believe that perfumes are more than just scents; they are expressions of one's individuality and style. Our passion for exquisite fragrances led us to curate a collection that captures the essence of diverse personalities, bringing you an unparalleled olfactory experience.
-      </p>
-    </div>
-  </div>
-  </div>
-</div> */}
-
 <div
   className="hero min-h-[87vh] w-full mx-auto bg-no-repeat bg-center bg-fixed"
   style={{
@@ -31,8 +15,8 @@ const page = () => {
 >
   <div className="flex justify-center items-center h-full bg-opacity-10">
     <div className="text-neutral-content text-center">
-      <div className="max-w-md bg-[#cc726a89] rounded-xl p-6 mx-auto">
-        <h1 className="mb-5 text-4xl sm:text-5xl font-bold">About Us</h1>
+      <div className="max-w-md bg-[#cc726a89] rounded-xl p-6 mx-auto mt-28">
+        <h1 className=" text-4xl sm:text-5xl font-bold ">About Us</h1>
         <p className="mb-5 text-lg sm:text-xl font-semibold">
           At Local Face, we believe that perfumes are more than just scents; they are expressions of ones individuality and style. Our passion for exquisite fragrances led us to curate a collection that captures the essence of diverse personalities, bringing you an unparalleled olfactory experience.
         </p>

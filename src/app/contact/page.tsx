@@ -16,7 +16,7 @@ const page = () => {
             <div className="flex flex-col items-center">
 
 
-            <button className="btn btn-primary w-full max-w-xs font-bold rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center hover:bg-indigo-200 focus:outline-none will-change-transform">
+            <button className="btn btn-primary w-full max-w-xs font-bold rounded-lg py-3 bg-[#E8B86D] text-gray-800 flex items-center justify-center hover:bg-[#b89153] focus:outline-none will-change-transform">
 
                 <div className="bg-white  rounded-full">
                   <svg className="w-4" viewBox="0 0 533.5 544.3">
@@ -40,7 +40,7 @@ const page = () => {
                 </div>
                 <span className="ml-4">Sign Up with Google</span>
               </button>
-              <button className="btn btn-primary w-full max-w-xs font-bold rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center  hover:bg-indigo-200 focus:outline-none mt-4 will-change-transform">
+              <button className="btn btn-primary w-full max-w-xs font-bold rounded-lg py-3 bg-[#E8B86D] text-gray-800 flex items-center justify-center  hover:bg-[#b89153] focus:outline-none mt-4 will-change-transform">
 
                 <div className="bg-white  rounded-full">
                   <svg className="w-6" viewBox="0 0 32 32">
@@ -60,16 +60,16 @@ const page = () => {
             </div>
             <div className="mx-auto max-w-xs">
               <input
-                className="w-full px-8 py-3 rounded-lg font-semibold bg-gray-100 border border-indigo-400 placeholder-gray-700 text-sm  focus:outline-none focus:border-gray-400 focus:bg-white"
+                className="w-full px-8 py-3 rounded-lg font-semibold bg-gray-100 border border-[#E8B86D] placeholder-gray-700 text-sm  focus:outline-none focus:border-[#E8B86D] focus:bg-white"
                 type="email"
                 placeholder="Email"
               />
               <input
-                className="w-full px-8 py-3 rounded-lg font-semibold bg-gray-100 border border-indigo-400 placeholder-gray-700 text-sm focus:outline-none focus:border-gray-400 focus:bg-white mt-5"
+                className="w-full px-8 py-3 rounded-lg font-semibold bg-gray-100 border border-[#E8B86D] placeholder-gray-700 text-sm focus:outline-none focus:border-[#E8B86D] focus:bg-white mt-5"
                 type="password"
                 placeholder="Password"
               />
-              <button className="btn btn-primary mt-5 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-3 rounded-lg hover:bg-indigo-700 flex items-center justify-center focus:shadow-outline focus:outline-none will-change-transform">
+              <button className="btn btn-primary mt-5 tracking-wide font-semibold bg-[#E8B86D] text-gray-100 w-full py-3 rounded-lg hover:bg-[#b89153] flex items-center justify-center focus:shadow-outline focus:outline-none will-change-transform">
                 <svg
                   className="w-6 h-6 -ml-2"
                   fill="none"

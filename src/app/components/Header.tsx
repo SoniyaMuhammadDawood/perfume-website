@@ -29,7 +29,7 @@ export default function Header() {
     <header className="bg-[#E8B86D]  p-4 ">
       <nav className="container mx-auto flex justify-between items-center">
 
-        <Link href="/" className="text-3xl font-bold font-serif italic">Fragrance Haven</Link>
+        <Link href="/" className="text-3xl font-bold tracking-tighter font-serif italic">Fragrance Haven</Link>
         
         
         {/* Hamburger menu for sm and md screens */}
@@ -40,7 +40,7 @@ export default function Header() {
         </div>
 
         {/* Regular menu for lg screens */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 text-md font-semibold">
           <li><Link href="/" className="hover:text-gray-700 hover:underline hover:underline-offset-4">Home</Link></li>
           <li><Link href="/about" className="hover:text-gray-700 hover:underline hover:underline-offset-4">About</Link></li>
           <li><Link href="/contact" className="hover:text-gray-700 hover:underline hover:underline-offset-4">Contact</Link></li>
@@ -57,12 +57,13 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden mt-4 ">
-          <ul className="flex flex-col space-y-2">
-            <li><Link href="/" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Home</Link></li>
-            <li><Link href="/about" className="block hover:text-gray-300" onClick={toggleMobileMenu}>About</Link></li>
-            <li><Link href="/contact" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Contact</Link></li>
-            <li><Link href="/products" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Products</Link></li>
+   <div className="md:hidden mt-4 ">
+    <ul className="flex flex-col space-y-2">
+      <li><Link href="/" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Home</Link></li>
+      <li><Link href="/about" className="block hover:text-gray-300" onClick={toggleMobileMenu}>About</Link></li>
+      <li><Link href="/contact" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Contact</Link></li>
+      <li><Link href="/services" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Services</Link></li>
+      <li><Link href="/products" className="block hover:text-gray-300" onClick={toggleMobileMenu}>Products</Link></li>
             <li>
               <Link href="/cart" className=" hover:text-gray-300 flex items-center" onClick={toggleMobileMenu}>
                 <ShoppingCart size={20} className="mr-1" />

@@ -6,7 +6,7 @@ const Unique = () => {
   return (
     <div className="bg-blue-50">
       {/* Header */}
-      <div className="text-center py-10">
+      <div className="text-center py-10 ">
         <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4">
           Unique Collection
         </h1>
@@ -19,10 +19,10 @@ const Unique = () => {
         {/* Product Cards */}
         {[
           { src: '/images/uni9.png', title: 'CRYSTAL RONEN' },
-          { src: '/images/uni2.png', title: 'MEN NBLOE' },
-          { src: '/images/uni16.png', title: 'ONXY POWER' },
-          { src: '/images/uni4.png', title: 'CALDON BLUSH' },
-          { src: '/images/uni14.png', title: 'GREEN GOLD' },
+          { src: '/images/uni2.png', title: 'Versace Bright Crystal' },
+          { src: '/images/uni16.png', title: 'Dolce & Gabbana Light Blue' },
+          { src: '/images/uni4.png', title: 'GHALA SAEED' },
+          { src: '/images/uni14.png', title: 'Burberry Her' },
           { src: '/images/uni6.png', title: 'DECLOY ROSE' },
           { src: '/images/uni7.png', title: 'COACH NECLO' },
           { src: '/images/uni15.png', title: 'GABBANA' },
